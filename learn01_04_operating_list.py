@@ -32,3 +32,16 @@ for value in range(1, 11):
     squares.append(value**2)
 
 print(squares)
+
+print("\n-------------\n")
+
+# 处理数字列表的函数
+print(min(numbers))
+print(max(numbers))
+print(sum(numbers))
+
+# 列表解析
+squares = [value**2 for value in range(1, 11)]
+print(squares)
+
+print("\n-------------\n")
