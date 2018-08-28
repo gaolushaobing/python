@@ -23,4 +23,12 @@ print("\n-------------\n")
 even_numbers = list(range(2, 11, 2))
 print(even_numbers)
 
+print("\n-------------\n")
+
+
 # 1~10的平方
+squares = []
+for value in range(1, 11):
+    squares.append(value**2)
+
+print(squares)
