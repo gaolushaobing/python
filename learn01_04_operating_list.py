@@ -7,4 +7,11 @@ for magician in magicians:
 print("Thank you, everyone. That was a great magic show!")
 print("\n-------------\n")
 
+# 函数range()生成数字
+for value in range(1, 5):
+    print(value)
 
+# list()可以转换列表
+numbers = list(range(1, 6))
+print(numbers)
+j
