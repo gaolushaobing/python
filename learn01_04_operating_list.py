@@ -10,8 +10,17 @@ print("\n-------------\n")
 # 函数range()生成数字
 for value in range(1, 5):
     print(value)
+print("\n-------------\n")
 
 # list()可以转换列表
 numbers = list(range(1, 6))
 print(numbers)
-j
+
+print("\n-------------\n")
+
+# range可以指定步长
+# 2开始 不断加2 达到或者超过11
+even_numbers = list(range(2, 11, 2))
+print(even_numbers)
+
+# 1~10的平方
