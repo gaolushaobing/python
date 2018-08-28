@@ -11,3 +11,6 @@ for car in cars:
 print("\n-------------\n")
 
 #不等于
+answer = 17
+if answer != 31:
+    print("That is not the correct answer. Please try again!")
