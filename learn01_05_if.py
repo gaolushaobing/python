@@ -34,7 +34,35 @@ else:
     print("You age is small~")
 
 
+# 年龄筛选
+age = 12
+
+if age < 4:
+    print("Your admission cost is $0.")
+elif age < 18:
+    print("Your admission cost is $5.")
+else:
+    print("Your admission cost is $10.")
+
+
+# 披萨加料
+requested_toppings = ['mushrooms', 'extra cheese']
+
+if 'mushrooms' in requested_toppings:
+    print("Adding mushrooms")
+if 'pepperoni' in requested_toppings:
+    print("Adding pepperoni")
+if 'extra cheese' in requested_toppings:
+    print("Adding extra cheese")
+
+print("\nFinished making your pizza!")
+
 print("\n-------------\n")
 
+# for表示披萨加料
+requested_toppings = ['mushrooms', 'extra cheese', 'green peppers']
+
+for requested_topping in requested_toppings:
+    print("Adding " + requested_topping + ".")
 
 
