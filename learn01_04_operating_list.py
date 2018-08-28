@@ -2,4 +2,6 @@
 # for 遍历
 magicians = ['alice', 'david', 'carolina']
 for magician in magicians:
-  print(magician) 
+  print(magician.title() + ", that was a great trick!")
+  print("That is nice!")
+print
