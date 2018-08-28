@@ -38,9 +38,22 @@ print(sum(numbers))
 squares = [value**2 for value in range(1, 11)]
 print(squares)
 
-print("\n-------------\n")
-
 # 列表切片
 letters = ['a', 'b', 'c', 'd', 'e', 'f']
 print(letters[0:3])
 print(letters[-3:])
+
+# 根据列表切片衍生的复制列表
+my_drinks = ['tea', 'coffee', 'beer', 'milk']
+friend_drinks = my_drinks[:]
+print("My:" + str(my_drinks))
+print("Friend:" + str(friend_drinks))
+
+
+# 元组 · 不可变的列表 可以重新赋值定义
+
+dimensions = (200, 50)
+print(dimensions[0])
+print(dimensions[1])
+
+print("\n-------------\n")
