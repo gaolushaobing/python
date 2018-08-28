@@ -8,9 +8,18 @@ for car in cars:
     else:
         print(car.title())
         
-print("\n-------------\n")
 
 #不等于
 answer = 17
 if answer != 31:
     print("That is not the correct answer. Please try again!")
+
+print("\n-------------\n")
+
+# and 和  or
+age0 = 23
+age1 = 18
+print(age0 >= 20 and age1 >= 20)
+print(age0 >= 20 or age1 >= 20)
+
+# in 是否在之内
