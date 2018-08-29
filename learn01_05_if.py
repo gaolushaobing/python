@@ -45,7 +45,7 @@ else:
     print("Your admission cost is $10.")
 
 
-# 披萨加料
+# in 是否含有 披萨加料 
 requested_toppings = ['mushrooms', 'extra cheese']
 
 if 'mushrooms' in requested_toppings:
